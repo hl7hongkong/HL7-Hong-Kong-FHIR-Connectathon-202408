@@ -1,0 +1,262 @@
+{
+  "resourceType": "Bundle",
+  "id": "a78c004b-7335-46bc-a13b-6f001380358c",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "d2f9f649-5555-4826-868b-84e015c1f1be"
+  },
+  "type": "document",
+  "timestamp": "2017-12-11T14:30:00.999+08:00",
+  "entry": [
+    {
+      "fullUrl": "Composition/30551ce1-5a28-4356-b684-1e639094ad4d",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "30551ce1-5a28-4356-b684-1e639094ad4d",
+        "identifier": {
+          "system": "urn:oid:2.16.724.4.8.10.200.10",
+          "value": "3f69e0a5-2177-4540-baab-7a5d0877428f"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://ehealth.gov.hk/FHIR",
+              "display": "Hong Kong eHR Healthcare Document"
+            }
+          ],
+          "text": "Hong Kong eHR Healthcare Document"
+        },
+        "subject": {
+          "reference": "Patient/d58dd75b-cf09-4a1c-b913-c9e867f27616"
+        },
+        "date": "2023-10-22T16:30:05.005+08:00",
+        "author": [
+          {
+            "reference": "Organization/4037da57-d98b-400b-93fe-3d918f6aa7c8"
+          }
+        ],
+        "title": "Hong Kong eHR Healthcare Document",
+        "section": [
+          {
+            "title": "Investigation Report Records",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/datadomain",
+                  "code": "INVR",
+                  "display": "Investigation Report Records"
+                }
+              ],
+              "text": "Investigation Report Records"
+            },
+            "entry": [
+              {
+                "extension": [
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactionDateTime",
+                    "valueDateTime": "2023-10-22T15:30:05.005+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-TransactonType",
+                    "valueString": "I"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-LastUpdateDateTime",
+                    "valueDateTime": "2023-10-22T15:30:05.005+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-ComplianceLevel",
+                    "valueString": "1"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-UploadMode",
+                    "valueString": "NBL"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-SendingLocation",
+                    "valueString": "BRANCHA"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateDatetime",
+                    "valueDateTime": "2023-10-22T15:30:05.005+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstIdentifier",
+                    "valueString": "8088450656"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordCreateInstName",
+                    "valueString": "Hong Kong Hospital"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordLastUpdateDatetime",
+                    "valueDateTime": "2023-10-22T15:30:05.005+08:00"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstIdentifier",
+                    "valueString": "8840188537"
+                  },
+                  {
+                    "url": "https://ehealth.gov.hk/FHIR/99999999-RecordUpdateInstName",
+                    "valueString": "Hong Kong Hospital"
+                  }
+                ],
+                "reference": "DocumentReference/1832473e-2fe0-452d-abe9-3cdb9879522f",
+                "identifier": {
+                  "system": "https://ehealth.gov.hk/FHIR/HCP/local/Recordkey",
+                  "value": "INVR-001"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/4037da57-d98b-400b-93fe-3d918f6aa7c8",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "4037da57-d98b-400b-93fe-3d918f6aa7c8",
+        "identifier": [
+          {
+            "system": "https://ehealth.gov.hk/FHIR/pvdr",
+            "value": "8840188537"
+          }
+        ],
+        "name": "Hong Kong Hospital",
+        "alias": [
+          "HKH"
+        ]
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "1832473e-2fe0-452d-abe9-3cdb9879522f",
+        "extension": [
+          {
+            "url": "https://ehealth.gov.hk/FHIR/1003594-INVRRemarks",
+            "valueString": "def"
+          },
+          {
+            "url": "https://ehealth.gov.hk/FHIR/1003592-INVRreportText",
+            "valueString": "N/A"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://ehealth.gov.hk/FHIR/HCP/local/ReferralNo",
+            "value": "20150001"
+          }
+        ],
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "code": "102103"
+            }
+          ]
+        },
+        "date": "2023-10-22T15:30:05.005+08:00",
+        "description": "Cardiac",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "data": "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YmoNMzUwNQ1lbmRvYmoNNSAwIG9iag08PA0vVHlwZSAvUGFnZQ0vUGFyZW50IDMgMCBSDS9NZWRpYUJveCBbMCAwIDU5NSA4NDFdDS9Sb3RhdGUgMA0vQ29udGVudHMgWzYgMCBSIF0NL1Jlc291cmNlcyA8PA0vUHJvY1NldCBbL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0NL0NvbG9yU3BhY2UgPDwgL0NTMSBbL1BhdHRlcm4gL0RldmljZUdyYXldIC9DUzIgWy9QYXR0ZXJuIC9EZXZpY2VSR0JdID4+DS9Gb250IDw8L0Y4IDggMCBSIC9GOSA5IDAgUiAvRjEwIDEwIDAgUiAvRjExIDExIDAgUiA+Pg0+Pg0+Pg1lbmRvYmoNOCAwIG9iag08PA0vVHlwZSAvRm9udA0vU3VidHlwZSAvVHJ1ZVR5cGUNL05hbWUgL0Y4DS9CYXNlRm9udCAvQXJpYWwsSXRhbGljDS9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nDS9GaXJzdENoYXIgMzINL0xhc3RDaGFyIDI1NQ0vV2lkdGhzIFsgDTI3OCAyNzggMzU1IDU1NiA1NTYgODg5IDY2NyAxOTEgMzMzIDMzMyAzODkgNTg0IDI3OCAzMzMgMjc4IDI3OCA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgMjc4IDI3OCA1ODQgNTg0IDU4NCA1NTYgMTAxNSA2NjcgNjY3IDcyMiA3MjIgNjY3IDYxMSA3NzggNzIyIDI3OCA1MDAgNjY3IDU1NiA4MzMgNzIyIDc3OCA2NjcgNzc4IDcyMiA2NjcgNjExIDcyMiA2NjcgOTQ0IDY2NyA2NjcgNjExIDI3OCAyNzggMjc4IDQ2OSA1NTYgDTMzMyA1NTYgNTU2IDUwMCA1NTYgNTU2IDI3OCA1NTYgNTU2IDIyMiAyMjIgNTAwIDIyMiA4MzMgNTU2IDU1NiA1NTYgNTU2IDMzMyA1MDAgMjc4IDU1NiA1MDAgNzIyIDUwMCA1MDAgNTAwIDMzNCAyNjAgMzM0IDU4NCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCANNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIA00MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIF0NL0ZvbnREZXNjcmlwdG9yIDEyIDAgUg0+Pg1lbmRvYmoNMTIgMCBvYmoNPDwNL1R5cGUgL0ZvbnREZXNjcmlwdG9yDS9Gb250TmFtZSAvQXJpYWwsSXRhbGljDS9GbGFncyAzMg0vRm9udEJCb3ggWyAtNTE3IC0zMjUgMTA4MiA5OTggXQ0vTWlzc2luZ1dpZHRoIDc2MA0vU3RlbVYgODANL1N0ZW1IIDgwDS9JdGFsaWNBbmdsZSAwDS9DYXBIZWlnaHQgODIwDS9YSGVpZ2h0IDU3NA0vQXNjZW50IDgyMA0vRGVzY2VudCAyMjANL0xlYWRpbmcgNDANL01heFdpZHRoIDEwMjANL0F2Z1dpZHRoIDQyMA0+Pg1lbmRvYmoNOSAwIG9iag08PA0vVHlwZSAvRm9udA0vU3VidHlwZSAvVHJ1ZVR5cGUNL05hbWUgL0Y5DS9CYXNlRm9udCAvQXJpYWwNL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcNL0ZpcnN0Q2hhciAzMg0vTGFzdENoYXIgMjU1DS9XaWR0aHMgWyANMjc4IDI3OCAzNTUgNTU2IDU1NiA4ODkgNjY3IDE5MSAzMzMgMzMzIDM4OSA1ODQgMjc4IDMzMyAyNzggMjc4IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiAyNzggMjc4IDU4NCA1ODQgNTg0IDU1NiAxMDE1IDY2NyA2NjcgNzIyIDcyMiA2NjcgNjExIDc3OCA3MjIgMjc4IDUwMCA2NjcgNTU2IDgzMyA3MjIgNzc4IDY2NyA3NzggNzIyIDY2NyA2MTEgNzIyIDY2NyA5NDQgNjY3IDY2NyA2MTEgMjc4IDI3OCAyNzggNDY5IDU1NiANMzMzIDU1NiA1NTYgNTAwIDU1NiA1NTYgMjc4IDU1NiA1NTYgMjIyIDIyMiA1MDAgMjIyIDgzMyA1NTYgNTU2IDU1NiA1NTYgMzMzIDUwMCAyNzggNTU2IDUwMCA3MjIgNTAwIDUwMCA1MDAgMzM0IDI2MCAzMzQgNTg0IDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIA00MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgDTQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgXQ0vRm9udERlc2NyaXB0b3IgMTMgMCBSDT4+DWVuZG9iag0xMyAwIG9iag08PA0vVHlwZSAvRm9udERlc2NyaXB0b3INL0ZvbnROYW1lIC9BcmlhbA0vRmxhZ3MgMzINL0ZvbnRCQm94IFsgLTY2NSAtMzI1IDIwMDAgMTAwNiBdDS9NaXNzaW5nV2lkdGggNzYwDS9TdGVtViA4MA0vU3RlbUggODANL0l0YWxpY0FuZ2xlIDANL0NhcEhlaWdodCA4MjANL1hIZWlnaHQgNTc0DS9Bc2NlbnQgODIwDS9EZXNjZW50IDIyMA0vTGVhZGluZyA0MA0vTWF4V2lkdGggMTAyMA0vQXZnV2lkdGggNDIwDT4+DWVuZG9iag0xMCAwIG9iag08PA0vVHlwZSAvRm9udA0vU3VidHlwZSAvVHJ1ZVR5cGUNL05hbWUgL0YxMA0vQmFzZUZvbnQgL1RpbWVzTmV3Um9tYW4sQm9sZA0vRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZw0vRmlyc3RDaGFyIDMyDS9MYXN0Q2hhciAyNTUNL1dpZHRocyBbIA0yNTAgMzMzIDU1NSA1MDAgNTAwIDEwMDAgODMzIDI3OCAzMzMgMzMzIDUwMCA1NzAgMjUwIDMzMyAyNTAgMjc4IDUwMCA1MDAgNTAwIDUwMCA1MDAgNTAwIDUwMCA1MDAgNTAwIDUwMCAzMzMgMzMzIDU3MCA1NzAgNTcwIDUwMCA5MzAgNzIyIDY2NyA3MjIgNzIyIDY2NyA2MTEgNzc4IDc3OCAzODkgNTAwIDc3OCA2NjcgOTQ0IDcyMiA3NzggNjExIDc3OCA3MjIgNTU2IDY2NyA3MjIgNzIyIDEwMDAgNzIyIDcyMiA2NjcgMzMzIDI3OCAzMzMgNTgxIDUwMCANMzMzIDUwMCA1NTYgNDQ0IDU1NiA0NDQgMzMzIDUwMCA1NTYgMjc4IDMzMyA1NTYgMjc4IDgzMyA1NTYgNTAwIDU1NiA1NTYgNDQ0IDM4OSAzMzMgNTU2IDUwMCA3MjIgNTAwIDUwMCA0NDQgMzk0IDIyMCAzOTQgNTIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIA00MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgDTQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgXQ0vRm9udERlc2NyaXB0b3IgMTQgMCBSDT4+DWVuZG9iag0xNCAwIG9iag08PA0vVHlwZSAvRm9udERlc2NyaXB0b3INL0ZvbnROYW1lIC9UaW1lc05ld1JvbWFuLEJvbGQNL0ZsYWdzIDMyDS9Gb250QkJveCBbIC01NTggLTMwNyAyMDAwIDEwMjYgXQ0vTWlzc2luZ1dpZHRoIDc2MA0vU3RlbVYgODANL1N0ZW1IIDgwDS9JdGFsaWNBbmdsZSAwDS9DYXBIZWlnaHQgODIwDS9YSGVpZ2h0IDU3NA0vQXNjZW50IDgyMA0vRGVzY2VudCAyMjANL0xlYWRpbmcgNDANL01heFdpZHRoIDEwMjANL0F2Z1dpZHRoIDQyMA0+Pg1lbmRvYmoNMTEgMCBvYmoNPDwNL1R5cGUgL0ZvbnQNL1N1YnR5cGUgL1RydWVUeXBlDS9OYW1lIC9GMTENL0Jhc2VGb250IC9BcmlhbCxCb2xkDS9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nDS9GaXJzdENoYXIgMzINL0xhc3RDaGFyIDI1NQ0vV2lkdGhzIFsgDTI3OCAzMzMgNDc0IDU1NiA1NTYgODg5IDcyMiAyMzggMzMzIDMzMyAzODkgNTg0IDI3OCAzMzMgMjc4IDI3OCA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgNTU2IDU1NiA1NTYgMzMzIDMzMyA1ODQgNTg0IDU4NCA2MTEgOTc1IDcyMiA3MjIgNzIyIDcyMiA2NjcgNjExIDc3OCA3MjIgMjc4IDU1NiA3MjIgNjExIDgzMyA3MjIgNzc4IDY2NyA3NzggNzIyIDY2NyA2MTEgNzIyIDY2NyA5NDQgNjY3IDY2NyA2MTEgMzMzIDI3OCAzMzMgNTg0IDU1NiANMzMzIDU1NiA2MTEgNTU2IDYxMSA1NTYgMzMzIDYxMSA2MTEgMjc4IDI3OCA1NTYgMjc4IDg4OSA2MTEgNjExIDYxMSA2MTEgMzg5IDU1NiAzMzMgNjExIDU1NiA3NzggNTU2IDU1NiA1MDAgMzg5IDI4MCAzODkgNTg0IDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIA00MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgDTQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgNDIwIDQyMCA0MjAgXQ0vRm9udERlc2NyaXB0b3IgMTUgMCBSDT4+DWVuZG9iag0xNSAwIG9iag08PA0vVHlwZSAvRm9udERlc2NyaXB0b3INL0ZvbnROYW1lIC9BcmlhbCxCb2xkDS9GbGFncyAzMg0vRm9udEJCb3ggWyAtNjI4IC0zNzYgMjAwMCAxMDEwIF0NL01pc3NpbmdXaWR0aCA3NjANL1N0ZW1WIDgwDS9TdGVtSCA4MA0vSXRhbGljQW5nbGUgMA0vQ2FwSGVpZ2h0IDgyMA0vWEhlaWdodCA1NzQNL0FzY2VudCA4MjANL0Rlc2NlbnQgMjIwDS9MZWFkaW5nIDQwDS9NYXhXaWR0aCAxMDIwDS9BdmdXaWR0aCA0MjANPj4NZW5kb2JqDTMgMCBvYmoNPDwNL1R5cGUgL1BhZ2VzDS9Db3VudCAxDS9LaWRzIFs1IDAgUl0NL1Jlc291cmNlcyA8PA0vUHJvY1NldCBbL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0NL0NvbG9yU3BhY2UgPDwgL0NTMSBbL1BhdHRlcm4gL0RldmljZUdyYXldIC9DUzIgWy9QYXR0ZXJuIC9EZXZpY2VSR0JdID4+DS9Gb250IDw8IC9GOCA4IDAgUiAvRjkgOSAwIFIgL0YxMCAxMCAwIFIgL0YxMSAxMSAwIFIgID4+DQ0+Pg0+Pg1lbmRvYmoNMiAwIG9iag08PA0vVHlwZSAvQ2F0YWxvZw0vUGFnZXMgMyAwIFINPj4NZW5kb2JqDTEgMCBvYmoNPDwNL1RpdGxlIChncnJTcG9vbCkNL1Byb2R1Y2VyIChBbXl1bmkgUERGIENvbnZlcnRlcikNL1ZlcnNpb24gKFZlcnNpb24gMi4wOGIgUHJvIC0gTGljZW5jZSAjIEMxMzc4REUxLTMxMDgpDS9DcmVhdGlvbkRhdGUgKDEvMTIvMjAwNiAxNjoxODo1MykNPj4NZW5kb2JqDXhyZWYNMCAxNg0wMDAwMDAwMDAwIDY1NTM1IGYgDTAwMDAwMDk1NDcgMDAwMDAgbiANMDAwMDAwOTQ5OCAwMDAwMCBuIA0wMDAwMDA5MjQ3IDAwMDAwIG4gDTAwMDAwMDAwMDAgMDAwMDAgbiANMDAwMDAwMzYxNSAwMDAwMCBuIA0wMDAwMDAwMDE3IDAwMDAwIG4gDTAwMDAwMDM1OTUgMDAwMDAgbiANMDAwMDAwMzkwNiAwMDAwMCBuIA0wMDAwMDA1MjQxIDAwMDAwIG4gDTAwMDAwMDY1NjMgMDAwMDAgbiANMDAwMDAwNzkxNCAwMDAwMCBuIA0wMDAwMDA0OTgzIDAwMDAwIG4gDTAwMDAwMDYzMTEgMDAwMDAgbiANMDAwMDAwNzY0OSAwMDAwMCBuIA0wMDAwMDA4OTkwIDAwMDAwIG4gDXRyYWlsZXINPDwNL1NpemUgMTYNL1Jvb3QgMiAwIFINL0luZm8gMSAwIFINPj4Nc3RhcnR4cmVmDTk3MDkNJSVFT0YN",
+              "url": "file:///8088450656.BRANCHA.INVR.INVR-001.123.pdf.201000000001.20231022163005",
+              "title": "Echocardiogram Report",
+              "creation": "2023-01-31T00:00:00.000+08:00"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/169281c8-fb76-4e9c-b30f-3dfb3a7f53f2"
+            }
+          ],
+          "period": {
+            "start": "2023-01-31T00:00:00.000+08:00",
+            "end": "2023-02-01T00:00:00.000+08:00"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "Patient/d58dd75b-cf09-4a1c-b913-c9e867f27616",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d58dd75b-cf09-4a1c-b913-c9e867f27616",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2022-09-27T15:22:49.093+00:00"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "EHRNO"
+                }
+              ]
+            },
+            "value": "12345680880"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://ehealth.gov.hk/FHIR/typeofID-ext",
+                  "code": "ID"
+                }
+              ]
+            },
+            "value": "Q1730351"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "CHAN, MAN MAN",
+            "family": "CHAN",
+            "given": [
+              "MAN MAN"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-12-25"
+      }
+    },
+    {
+      "fullUrl": "Encounter/169281c8-fb76-4e9c-b30f-3dfb3a7f53f2",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "169281c8-fb76-4e9c-b30f-3dfb3a7f53f2",
+        "extension": [
+          {
+            "url": "https://ehealth.gov.hk/FHIR/99999999-AttendanceInstIdentifier",
+            "valueString": "1234567891"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://ehealth.gov.hk/FHIR/HCP/local/EpisodeNum",
+            "value": "OP123456"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "https://ehealth.gov.hk/FHIR/class",
+          "code": "UNKNOWN",
+          "display": "Unknown status"
+        }
+      }
+    }
+  ]
+}
